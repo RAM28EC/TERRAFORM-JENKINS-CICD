@@ -12,4 +12,4 @@ sudo systemctl enable docker
 
 # Pull and run a simple Nginx web server container
 sudo docker run -d --name zomato -p 3000:3000 28cloud/zomato:latest
-sudo docker run -d --name netflix -p 80:80 28cloud/netflix:latest
+sudo docker run -d --name netflix -p 8081:80 28cloud/netflix:latest
