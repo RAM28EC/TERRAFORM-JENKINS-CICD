@@ -4,7 +4,7 @@ variable "aws_region" {
 }
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     = "Mumbai"
+  default     = "jenkins-tf"
 }
 variable "instance_type" {
   description = "instance type for ec2"
@@ -12,12 +12,12 @@ variable "instance_type" {
 }
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-0f5ee92e2d63afc18"
+  default     = "ami-03f4878755434977f"
 }
 variable "bucket_name" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default     = "mrcloudbook-777-ajaykumar-yegireddi"
+  default     = "bucketstaticcloud123"
 }
 
 variable "acl" {
